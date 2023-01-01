@@ -45,3 +45,5 @@
   - 결제
      - 부트페이 API를 활용하여 결제 구현 
     
+## 📃 ERD
+![김로사_NEOS_ERD drawio](https://user-images.githubusercontent.com/109491202/210173620-5a0c7dec-9c17-41b1-b027-3d423dbe1535.png)
