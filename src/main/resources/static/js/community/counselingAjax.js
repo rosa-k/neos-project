@@ -69,7 +69,7 @@ $(document).ready(function () {
 
         $(".editorMdoal").attr("style", "display:none !important;")
         $(".editorMdoal").find(".editorTitle input").val("");
-        $(".editorMdoal").find(".note-editable").val("");
+        $(".editorMdoal").find(".note-editable").text("");
         $(".updatePost_1j").css("display", "none");
 
     });
@@ -344,7 +344,7 @@ $(document).ready(function () {
         let cid = $(this).closest(".loungeCard").children(".cid").val();
         $(".cidDelete").val(cid);
 
-        $(".modalWrapOpen").attr("style","display : block !important")
+        $(".deleteModal").attr("style","display : block !important")
         $(".modalTit").text("글 삭제 확인");
         $(".commonModalContent p").text("해당 글을 삭제하시겠습니까?");
     })
